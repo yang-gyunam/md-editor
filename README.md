@@ -523,6 +523,6 @@ Apache License 2.0 - see [LICENSE](LICENSE) file for details.
 
 ## 🔗 Links
 
-- **[GitHub Repository](https://github.com/yang-gyunam/md-editor)** - Source code
+- **[GitHub Repository](https://github.com/yang-gyunam/md-editor)** - Source code.
 - **[Issue Tracker](https://github.com/yang-gyunam/md-editor/issues)** - Bug reports and feature requests
 - **[Discussions](https://github.com/yang-gyunam/md-editor/discussions)** - Community discussions
