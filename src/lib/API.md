@@ -7,14 +7,14 @@ The HTML Markdown Editor is a comprehensive dual-mode editor built with Svelte 5
 ## Installation
 
 ```bash
-npm install html-markdown-editor
+npm install svelte5-html-md-editor
 ```
 
 ## Basic Usage
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('# Hello World\n\nThis is **markdown** content.');
   let mode = $state('markdown');
@@ -359,7 +359,7 @@ const snippets = [
 The editor supports extensive theming through CSS custom properties:
 
 ```css
-.html-markdown-editor {
+.svelte5-html-md-editor {
   --bg-color: #ffffff;
   --bg-secondary: #f6f8fa;
   --bg-hover: #f3f4f6;
@@ -378,7 +378,7 @@ The editor supports extensive theming through CSS custom properties:
 ### Dark Theme
 
 ```css
-.html-markdown-editor[data-theme="dark"] {
+.svelte5-html-md-editor[data-theme="dark"] {
   --bg-color: #0d1117;
   --bg-secondary: #161b22;
   --bg-hover: #21262d;

@@ -1,5 +1,5 @@
 {
-  "name": "markdown-editor",
+  "name": "svelte5-html-md-editor",
   "version": "0.1.0",
   "description": "A dual-mode HTML/Markdown editor built with Svelte 5",
   "type": "module",

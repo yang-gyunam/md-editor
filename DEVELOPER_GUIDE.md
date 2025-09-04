@@ -33,7 +33,7 @@ This guide provides comprehensive information for developers who want to integra
 ```bash
 # Clone the repository
 git clone https://github.com/yang-gyunam/md-editor.git
-cd html-markdown-editor
+cd md-editor
 
 # Install dependencies
 npm install
@@ -79,7 +79,7 @@ The project uses:
 ## Project Structure
 
 ```
-html-markdown-editor/
+svelte5-html-md-editor/
 ├── src/
 │   ├── lib/                    # Core library code
 │   │   ├── components/         # Svelte components
@@ -119,14 +119,14 @@ html-markdown-editor/
 ### Installation
 
 ```bash
-npm install html-markdown-editor
+npm install svelte5-html-md-editor
 ```
 
 ### Basic Integration
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('# Hello World');
   let mode = $state('markdown');
@@ -148,7 +148,7 @@ import type {
   Template,
   Snippet,
   PerformanceMetrics,
-} from "html-markdown-editor";
+} from "svelte5-html-md-editor";
 ```
 
 ## Architecture
@@ -334,7 +334,7 @@ export default {{ComponentName}};`,
 
 ```css
 /* Override default styles */
-.html-markdown-editor {
+.svelte5-html-md-editor {
   --bg-color: #ffffff;
   --text-primary: #24292f;
   --border-color: #e1e5e9;
@@ -342,12 +342,12 @@ export default {{ComponentName}};`,
 }
 
 /* Custom toolbar styling */
-.html-markdown-editor .toolbar-container {
+.svelte5-html-md-editor .toolbar-container {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 /* Custom preview styling */
-.html-markdown-editor .preview-pane {
+.svelte5-html-md-editor .preview-pane {
   font-family: "Georgia", serif;
   line-height: 1.8;
 }
@@ -456,7 +456,7 @@ The editor automatically adapts to high contrast preferences:
 
 ```css
 @media (prefers-contrast: high) {
-  .html-markdown-editor {
+  .svelte5-html-md-editor {
     border-width: 2px;
     outline-width: 3px;
   }
@@ -469,7 +469,7 @@ The editor automatically adapts to high contrast preferences:
 
 ```typescript
 import { render, fireEvent } from "@testing-library/svelte";
-import { HtmlMarkdownEditor } from "html-markdown-editor";
+import { HtmlMarkdownEditor } from "svelte5-html-md-editor";
 
 test("renders with default props", () => {
   const { getByRole } = render(HtmlMarkdownEditor);
@@ -548,8 +548,8 @@ test("has no accessibility violations", async () => {
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/html-markdown-editor.git
-cd html-markdown-editor
+git clone https://github.com/yang-gyunam/md-editor.git
+cd md-editor
 
 # Install dependencies
 npm install
@@ -952,7 +952,7 @@ Enable comprehensive debugging:
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   // Development mode detection
   const isDev = import.meta.env.DEV;
@@ -1018,9 +1018,9 @@ Recommended extensions for development:
 - [API Documentation](./src/lib/API.md)
 - [Component Demo](./src/routes/demo/+page.svelte)
 - [Test Examples](./src/lib/components/)
-- [GitHub Repository](https://github.com/your-org/html-markdown-editor)
-- [Issue Tracker](https://github.com/your-org/html-markdown-editor/issues)
+- [GitHub Repository](https://github.com/yang-gyunam/md-editor)
+- [Issue Tracker](https://github.com/yang-gyunam/md-editor/issues)
 
 ## License
 
-MIT License - see [LICENSE](./LICENSE) file for details.
+Apache License 2.0 - see [LICENSE](./LICENSE) file for details.

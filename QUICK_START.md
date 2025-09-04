@@ -8,7 +8,7 @@ Get up and running with the HTML Markdown Editor in minutes.
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
   let content = $state('# Hello World');
 </script>
 
@@ -19,7 +19,7 @@ Get up and running with the HTML Markdown Editor in minutes.
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
   const templates = [
@@ -43,8 +43,8 @@ Get up and running with the HTML Markdown Editor in minutes.
 ### 1. Clone and Setup
 
 ```bash
-git clone https://github.com/your-org/html-markdown-editor.git
-cd html-markdown-editor
+git clone https://github.com/yang-gyunam/md-editor.git
+cd md-editor
 npm install
 npm run dev
 ```
@@ -85,7 +85,7 @@ npm run lint       # Check code quality
 
 ## Need Help?
 
-- 🐛 [Report bugs](https://github.com/your-org/html-markdown-editor/issues)
-- 💡 [Request features](https://github.com/your-org/html-markdown-editor/discussions)
+- 🐛 [Report bugs](https://github.com/yang-gyunam/md-editor/issues)
+- 💡 [Request features](https://github.com/yang-gyunam/md-editor/discussions)
 - 📖 [Read documentation](./README.md)
-- 💬 [Join discussions](https://github.com/your-org/html-markdown-editor/discussions)
+- 💬 [Join discussions](https://github.com/yang-gyunam/md-editor/discussions)

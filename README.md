@@ -22,14 +22,14 @@ A powerful dual-mode editor built with Svelte 5 that seamlessly switches between
 ### Installation
 
 ```bash
-npm install html-markdown-editor
+npm install svelte5-html-md-editor
 ```
 
 ### Basic Usage
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('# Hello World\n\nThis is **markdown** content.');
   let mode = $state('markdown');
@@ -53,7 +53,7 @@ The simplest setup with default configuration:
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
 </script>
@@ -67,7 +67,7 @@ Add your own templates for quick content insertion:
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
 
@@ -110,7 +110,7 @@ Define keyboard shortcuts for frequently used content:
 
 ````svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
 
@@ -152,7 +152,7 @@ Handle editor events for integration with your application:
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
   let mode = $state('markdown');
@@ -194,7 +194,7 @@ Configure the editor for large documents:
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
 
@@ -224,7 +224,7 @@ Ensure full accessibility support:
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
 </script>
@@ -250,7 +250,7 @@ Optimize for mobile and touch devices:
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
 </script>
@@ -269,7 +269,7 @@ Apply custom themes and styling:
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
   let theme = $state('dark');
@@ -300,7 +300,7 @@ import { HtmlMarkdownEditor } from 'html-markdown-editor';
 
 // In your component
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
   let mode = $state('markdown');
@@ -344,7 +344,7 @@ import { HtmlMarkdownEditor } from 'html-markdown-editor';
 
 ```svelte
 <script>
-  import { HtmlMarkdownEditor } from 'html-markdown-editor';
+  import { HtmlMarkdownEditor } from 'svelte5-html-md-editor';
 
   let content = $state('');
   let editorRef;
@@ -523,7 +523,6 @@ Apache License 2.0 - see [LICENSE](LICENSE) file for details.
 
 ## 🔗 Links
 
-- **[Live Demo](https://your-demo-url.com)** - Try the editor online
-- **[GitHub Repository](https://github.com/your-org/html-markdown-editor)** - Source code
-- **[Issue Tracker](https://github.com/your-org/html-markdown-editor/issues)** - Bug reports and feature requests
-- **[Discussions](https://github.com/your-org/html-markdown-editor/discussions)** - Community discussions
+- **[GitHub Repository](https://github.com/yang-gyunam/md-editor)** - Source code
+- **[Issue Tracker](https://github.com/yang-gyunam/md-editor/issues)** - Bug reports and feature requests
+- **[Discussions](https://github.com/yang-gyunam/md-editor/discussions)** - Community discussions
