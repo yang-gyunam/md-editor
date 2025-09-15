@@ -1,0 +1,76 @@
+{
+  "name": "svelte5-html-md-editor",
+  "version": "0.1.0",
+  "description": "A dual-mode HTML/Markdown editor built with Svelte 5",
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yang-gyunam/md-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yang-gyunam/md-editor/issues"
+  },
+  "homepage": "https://github.com/yang-gyunam/md-editor#readme",
+  "keywords": [
+    "markdown",
+    "html",
+    "editor",
+    "svelte",
+    "wysiwyg",
+    "gfm",
+    "github-flavored-markdown"
+  ],
+  "author": {
+    "name": "Yang Gyunam",
+    "email": "knyang@gmail.com"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "src/lib"
+  ],
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "test": "vitest",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/svelte": "^5.2.8",
+    "@types/eslint": "^9.6.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-svelte": "^2.36.0",
+    "globals": "^15.0.0",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-svelte": "^3.1.2",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.0.0",
+    "vite": "^5.0.3",
+    "vitest": "^2.0.0"
+  },
+  "dependencies": {
+    "dompurify": "^3.0.0",
+    "marked": "^14.0.0",
+    "marked-gfm-heading-id": "^4.1.2",
+    "marked-highlight": "^2.2.2",
+    "prismjs": "^1.30.0"
+  }
+}
